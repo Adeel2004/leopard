@@ -53,7 +53,7 @@ class Leopard:
         stats = {}
         for i in range(len(self.data[0])):
             if self.data[0][i].isnumeric() == False:
-              continue  
+              continue #hello
             self.headers_in_use.append(i)
 
         for x in self.headers_in_use:
